@@ -4,17 +4,14 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "3.10.4",
+  "version": "3.10.5",
   "description": "⚒️ An SDK for building applications on top of Uniswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Uniswap/uniswap-v3-sdk.git"
-  },
+  "repository": "git+https://github.com/Uniswap/uniswap-v3-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -53,5 +50,5 @@
     "url": "https://github.com/Uniswap/uniswap-v3-sdk/issues"
   },
   "homepage": "https://github.com/Uniswap/uniswap-v3-sdk#readme",
-  "author": ""
+  "author": "blueswapbase <141097658+blueswapbase@users.noreply.github.com>"
 }
