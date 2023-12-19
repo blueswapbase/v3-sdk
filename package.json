@@ -5,16 +5,18 @@
     "access": "public"
   },
   "version": "3.10.5",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
+  "description": "blueswap v3-sdk",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "git+https://github.com/Uniswap/uniswap-v3-sdk.git",
+  "repository": "git+https://github.com/blueswapbase/v3-sdk.git",
   "keywords": [
     "uniswap",
-    "ethereum"
+    "ethereum",
+    "base",
+    "blueswap"
   ],
   "module": "dist/v3-sdk.esm.js",
   "scripts": {
@@ -26,10 +28,10 @@
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
-    "@uniswap/sdk-core": "^4",
     "@uniswap/swap-router-contracts": "^1.2.1",
     "@uniswap/v3-periphery": "^1.1.1",
     "@uniswap/v3-staker": "1.0.0",
+    "blueswap-sdk-core": "^4.0.13",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
@@ -49,6 +51,6 @@
   "bugs": {
     "url": "https://github.com/Uniswap/uniswap-v3-sdk/issues"
   },
-  "homepage": "https://github.com/Uniswap/uniswap-v3-sdk#readme",
+  "homepage": "https://github.com/blueswapbase/v3-sdk#readme",
   "author": "blueswapbase <141097658+blueswapbase@users.noreply.github.com>"
 }
